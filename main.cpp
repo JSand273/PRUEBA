@@ -16,5 +16,18 @@ int main() {
             else
                 cout << "\n El mayor es: " << b;
         }
+    int numero;
+    system("cls");
+
+
+    cout << "Introduce numero: ";
+    cin >> numero;
+
+    if(numero % 2 == 0)
+        cout << endl << numero <<" es par\n";
+    else
+        cout << endl << numero <<" es impar\n";
+
+    system("pause");
     return 0;
 }
